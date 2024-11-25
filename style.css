@@ -1,7 +1,7 @@
 :root {
-    --text-color: #DBE4EF;
-    --card-front-color: #144480;
-    --card-back-color: #00F4BF;
+    --text-color: #ffffff;
+    --card-front-color: #a200ff;
+    --card-back-color: #ff00dd;
 }
 
 body {
@@ -83,8 +83,8 @@ body {
 
 
 footer {
-    background-color: black;
-    color: white;
+    background-color: rgb(70, 54, 54);
+    color: rgb(153, 108, 108);
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -96,7 +96,7 @@ footer p {
     font-size: 0.6rem;
     margin-top: 0.5rem;
 }
-@media (max-width: 560 px) {
+@media (max-width: 560px) {
 
     body {
         background: url('img/bd-mobile.webp');
